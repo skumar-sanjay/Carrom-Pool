@@ -1,0 +1,112 @@
+<html>
+    <head>
+        <style>
+#outer{
+    height: 600px;
+    width: 600px;
+    margin: 0px auto;
+    border:30px solid black;
+    background-color: rgb(176, 169, 169);
+}
+.tcircle{
+    height:45px;
+    width:45px;
+    border:2px solid rgb(61, 57, 57);
+    border-radius: 50%;
+    background-color: white;
+}
+.row{
+    height:35px;
+    width:400px;
+    border:2px solid black;
+    border-radius: 20px;
+}
+.rowc{
+    height:30px;
+    width:30px;
+    border:3px solid black;
+    border-radius:50%;
+    background-color:red;
+}
+.arrow{
+    height:80px;
+    width:170px;
+}
+.arrRow{
+    height:0px;
+    width:150px;
+    border:2px solid black;
+}
+.arrCurr{
+    height:80px;
+    width:80px;
+    border:6px solid black;
+    border-radius:50%;
+    border-left: none;
+    border-top:none;
+}
+#centerCircle{
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    border-left:40px solid green;
+    border-right:40px solid yellow;
+    border-top:40px solid red;
+    border-bottom:40px solid blue;
+    position:relative;
+    top:-420px;
+    left:240px;
+}
+        </style>
+    </head>
+    <body>
+        <div id="outer">
+            <div class="tcircle"></div>
+             <div class="tcircle" style="position:relative;top:-49;left:552px;"></div>
+              <div class="tcircle" style="position:relative;top:456px;left:0px;"></div>
+               <div class="tcircle" style="position:relative;top:408px;left:551px;"></div>
+
+               <div class="row" style="position:relative;top:-150;margin:0px auto;">
+                <div class="rowc" style="float:left;"></div>
+                <div class="rowc" style="float:right;"></div>
+               </div>
+
+               <div class="row" style="position:relative;top:50px;left:-135;transform: rotate(90deg);">
+                <div class="rowc" style="float:left;"></div>
+                <div class="rowc" style="float:right;"></div>
+               </div>
+               
+               <div class="row" style="position:relative;top:10px;left:330px; transform:rotate(90deg);">
+                <div class="rowc" style="float:left;"></div>
+                <div class="rowc" style="float:right;"></div>
+               </div>
+
+               <div class="row" style="position:relative;top:210px;margin:0px auto">
+                <div class="rowc" style="float:left;"></div>
+                <div class="rowc" style="float:right;"></div>
+               </div>
+              
+               <div class="arrow" style="transform:rotate(45deg);position:relative;top:-200;left:50px;">
+                <div class="arrRow"></div>
+                <div class="arrCurr" style="position:relative;top:-45;left:74px;transform:rotate(-45deg);"></div>
+               </div>
+
+               <div class="arrow" style="transform:rotate(125deg);position:relative;top:-320;left:330px;">
+                <div class="arrRow"></div>
+                <div class="arrCurr" style="position:relative;top:-45;left:74px;transform:rotate(-45deg);"></div>
+               </div>
+
+               <div class="arrow" style="transform:rotate(220deg);position:relative;top:-130;left:350px;">
+                <div class="arrRow"></div>
+                <div class="arrCurr" style="position:relative;top:-45;left:74px;transform:rotate(-45deg);"></div>
+               </div>
+
+               <div class="arrow" style="transform:rotate(310deg);position:relative;top:-178;left:110px;">
+                <div class="arrRow"></div>
+                <div class="arrCurr" style="position:relative;top:-45;left:74px;transform:rotate(-45deg);"></div>
+               </div>
+
+               <div id="centerCircle"></div>
+        </div>
+    </body>
+</html> 
